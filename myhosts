@@ -11,3 +11,17 @@
 [myDBserver]
 172.31.21.133
 172.31.25.31
+
+
+[myubuntuserver]
+172.31.10.133
+
+[myRedHatserver]
+172.31.36.140
+
+
+
+
+[mywebserver:vars]
+mywebpackageforubuntu=apache2
+mywebpackageforredhat=httpd
