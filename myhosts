@@ -1,23 +1,17 @@
-
-[mywebserver]
+[Webservers]
+172.31.6.213
 172.31.10.133
 172.31.36.140
 172.31.40.11
 
-[myapplicationserver]
-172.31.10.10
-172.31.20.21
+[Myapplicationsservers]
+172.31.22.238
+172.31.25.428
 
+[myDBservers]
+172.31.56.25
+172.31.85.29
 
-[myDBserver]
-172.31.21.133
-172.31.25.31
-
-
-[myubuntuserver]
-172.31.10.133
-
-[myRedHatserver]
-172.31.36.140
-
-
+[[Webservers:vars]
+mywebpackageforubuntu=apache2
+mywebpackageforRedHat=httpd
